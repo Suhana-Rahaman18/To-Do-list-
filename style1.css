@@ -1,45 +1,44 @@
 body{ 
     background:  #000430;
-    /*background: radial-gradient(circle, rgba(0,0,0,0.028124999999999956) 0%, rgba(253,187,45,1) 100%);*/
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50 px;
   }
   
   #todo-container{
     background: #171c48 ;
-    width: 400px;
+    width: 400 px;
     margin: 0 auto;
-    border: 2px solid #828dff;
-    padding: 20px;
+    border: 2 px solid #828dff;
+    padding: 20 px;
     color: #fff;
-    border-radius: 15px;
+    border-radius: 15 px;
   }
   
   #input-box{
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    margin-right: 5px;
-    font-size: 20px;
+    width: 200 px;
+    padding: 10 px;
+    border: 1 px solid #fff;
+    border-radius: 5 px;
+    margin-right: 5 px;
+    font-size: 20 px;
   }
    
   #input-button{
-    font-size: 20px;
+    font-size: 20 px;
     cursor: pointer;
-    transition: 0.4s;
-    padding: 10px;
+    transition: 0.4 s;
+    padding: 10 px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5 px;
     background-color: #828dff;
   }
   
   .task button{
     background: #828dff;
-    border-radius: 5px;
-    margin: 0px 5px;
-    padding: 3px 5px;
+    border-radius: 5 px;
+    margin: 0 px 5 px;
+    padding: 3 px 5 px;
     border: none;
     cursor: pointer;
     color: white;
@@ -47,17 +46,17 @@ body{
   }
   
   hr{
-    border: 1px solid #0033ff;
+    border: 1 px solid #0033ff;
   }
   
   #header{
-    margin: 5px;
-    font-size: 20px;
+    margin: 5 px;
+    font-size: 20 px;
     text-align: center;
   }
   
   h1{
-    margin-bottom: 20px; 
+    margin-bottom: 20 px; 
   }
   
   #input-button:hover {
@@ -67,36 +66,36 @@ body{
   ul{
     list-style: none;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 20 px;
     text-align:left;
   }
   
   li {
-    border: 1px solid white;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
-    margin-top: 10px;
+    border: 1 px solid white;
+    border-radius: 5 px;
+    margin-bottom: 10 px;
+    padding: 10 px;
+    margin-top: 10 px;
   }
   
   .edit-btn, .delete-btn, .complete-btn{
     float: right;
     color:crimson;
     cursor: pointer;
-    margin: 3px 5px;
+    margin: 3 px 5 px;
     border: none;
-    padding: 3px 5px;
+    padding: 3 px 5 px;
     background: none;  
   } 
   
   .completed {
     text-decoration: line-through;
     color: gray;
-    border: 1px solid gray;
+    border: 1 px solid gray;
   }
+
   #img1{
-    height: 20px;
-    margin: -7px 3px 3px 4px;
-    
+    height: 20 px;
+    margin: -7 px 3 px 3 px 4 px; 
   }
   
