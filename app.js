@@ -28,21 +28,17 @@ function addTask() {
     </label>
     <span class="delete-btn"><img src="bin.png" id ="img1"></span>
     <span class="edit-btn"><img src="edit (2).png" id ="img1"></span>
-    
     `;
 
   listContainer.appendChild(li);
 
-  // clear the input field
   inputBox.value = " ";
 
-  // attach event listeners to the new task
   const checkbox = li.querySelector("input");
   const editBtn = li.querySelector(".edit-btn");
   const taskSpan = li.querySelector("span");
   const deleteBtn = li.querySelector(".delete-btn");
-
-  // strike out the completed task
+  
   checkbox.addEventListener("click", function () {
     li.classList.toggle("completed", checkbox.checked);
     updateCounters();
@@ -66,18 +62,8 @@ function addTask() {
   });
   updateCounters();
 }
-
-// add task when pressing Enter key
 inputBox.addEventListener("keyup", function (event) {
   if (event.key === "Enter") {
     addTask();
   }
 });
-
-
-
-
-
-
-
-
